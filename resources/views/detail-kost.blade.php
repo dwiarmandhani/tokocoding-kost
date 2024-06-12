@@ -25,7 +25,7 @@
     height: auto; */
 }
 .btn-fill{
-    background-color: #6777ef;
+    background-color: #F6DB80;
     border-radius: 12px;
     padding: 12px 28px;
     transition: 0.3s;
@@ -133,21 +133,21 @@ p.required-field::after {
                         @endphp
                         @foreach ($tipe_kamars as $tipe_kamar)
                         <div class="col-lg-3">
-                            <h5 style="color:#6777ef">Tipe Kamar</h5>
+                            <h5 style="color:#F6DB80">Tipe Kamar</h5>
                                 <input type="hidden" name="id" value="{{ $tipe_kamar->kamar }}">
                                 <div class="owner" style="margin-bottom: 0.5rem">{{ $tipe_kamar->nama }}</div>
                         </div>
                         <div class="col-lg-3">
-                                <h5 style="color:#6777ef">Deskripsi</h5>
+                                <h5 style="color:#F6DB80">Deskripsi</h5>
                                 <p>Berada di lantai {{ $tipe_kamar->lantai }} dan memiliki ukuran kamar {{ $tipe_kamar->ukuran }} </p>
                         </div>
                         <div class="col-lg-8">
-                        <h5 style="color:#6777ef">Fasilitas</h5>
+                        <h5 style="color:#F6DB80">Fasilitas</h5>
                         @foreach ($tipe_kamar->fasilitas->chunk(3) as $facilityy)
                             @php $incrementRoomType = 0 @endphp
                             @forelse ($facilityy as $facility)
                             <div class="facility col-md-3">
-                                <img style="float:left; margin-right: 10px; opacity:0.5; color: #6777ef;" src="{{ Storage::url($facility->icon) }}" height="24pxs" alt="">
+                                <img style="float:left; margin-right: 10px; opacity:0.5; color: #F6DB80;" src="{{ Storage::url($facility->icon) }}" height="24pxs" alt="">
                                 <p style="margin-right: 5px;">{{ $facility->nama }}</p>
                             </div>
                             @empty

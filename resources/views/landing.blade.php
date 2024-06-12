@@ -7,7 +7,7 @@
 @endpush
 
 @section('title')
-    Kost KIta
+    Toko Coding Kost
 @endsection
 
 @section('content')
@@ -78,7 +78,7 @@
 .testi-carousel .owl-dots .owl-dot.active span {
     width: 12px;
     height: 12px;
-    background: #6777EF; }
+    background: #F6DB80; }
 
     .client-avater {
   margin-bottom: 20px;
@@ -146,10 +146,10 @@ p.testimonial-body {
             <div
                 class="left-column d-flex flex-lg-grow-1 flex-column align-items-lg-start text-lg-start align-items-center text-center">
                 <h1 class="title-text-big">
-                Ingin Punya<br class="d-lg-block d-none" />
-                Kamar Kost Yang Nyaman
+                Kost murah<br class="d-lg-block d-none" />
+                dan Nyaman
                 </h1>
-                <p>Kost KIta merupakan kost <strong>putri</strong> yang nyaman dan bersih. Bagi kamu yang ingin mendapat suasana tersebut, Ayo segera miliki kamar di sini.</p>
+                <p>Toko Coding Kost merupakan kost <strong>campur</strong> yang nyaman dan bersih. Bagi kamu yang ingin mendapat suasana tersebut, Ayo segera miliki kamar di sini. Hari senin harga naik</p>
                 <div class="d-flex flex-sm-row flex-column align-items-center mx-lg-0 mx-auto justify-content-center gap-3">
                 <a href="#kamar" class="btn d-inline-flex mb-md-0 btn-try text-white">
                     Pilih Kamar
@@ -166,7 +166,7 @@ p.testimonial-body {
             <!-- Right Column -->
             <div class="right-column text-center d-flex justify-content-center pe-0">
                 <img id="img-fluid" class="h-auto mw-100"
-                src="{{ asset('fe/img/hero.png') }}"
+                src="{{ asset('fe/img/hero.jpg') }}"
                 alt="" />
             </div>
         </div>

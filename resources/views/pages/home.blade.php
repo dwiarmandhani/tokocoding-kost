@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="description" content="" />
 <meta name="author" content="" />
-<title>Kost KIta</title>
+<title>Toko Coding Kost</title>
 
 @include('includes.main.style')
 </head>
@@ -20,7 +20,7 @@
             <div class="home-banner">
             <div class="text-center">
                 <h4>Rumah Kost yang bersih dan nyaman</h4>
-                <h1>Rumah Kost KIta</h1>
+                <h1>Rumah Toko Coding Kost</h1>
                 <a class="button home-banner-btn" href="#">Silakan Memilih Kamar</a>
             </div>
             </div>
@@ -62,7 +62,7 @@
     <section class="section-margin" id="kost">
         <div class="container">
             <div class="section-intro text-center pb-80px">
-            <h2>Tipe Kamar Rumah Kost KIta</h2>
+            <h2>Tipe Kamar Rumah Toko Coding Kost</h2>
             </div>
 
             <div class="row">

@@ -7,9 +7,9 @@
     <meta name="author" content="" />
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel="icon" href="{{ asset('fe/img/GriyoKenyo.png') }}" type="image/png">
+    <link rel="icon" href="{{ asset('fe/img/tokoCodingKost.png') }}" type="image/png">
 
-    <title>Kost KIta</title>
+    <title>Toko Coding Kost</title>
 
     @include('partials.style')
     <!-- Fonts -->

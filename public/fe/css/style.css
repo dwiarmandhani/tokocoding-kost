@@ -40,7 +40,7 @@
 
     .header-2-2 .btn-fill {
     font: 600 18px / normal Poppins, sans-serif;
-    background-color: #6777ef;
+    background-color: #F6DB80;
     border-radius: 12px;
     padding: 12px 32px;
     transition: 0.3s;
@@ -74,7 +74,7 @@
     .header-2-2 .text-caption {
     font: 600 0.875rem/1.625 Poppins, sans-serif;
     margin-bottom: 1.5rem;
-    color: #6777ef;
+    color: #F6DB80;
     }
 
     .header-2-2 .left-column {
@@ -96,7 +96,7 @@
     font: 600 1rem/1.5rem Poppins, sans-serif;
     padding: 1rem 1.5rem;
     border-radius: 0.75rem;
-    background-color: #6777ef;
+    background-color: #F6DB80;
     transition: 0.3s;
     }
 
@@ -119,14 +119,14 @@
     }
 
     .header-2-2 .btn-outline:hover {
-    border: 1px solid #6777ef;
+    border: 1px solid #F6DB80;
     color: #fff;
-    background: #6777ef;
+    background: #F6DB80;
     transition: 0.3s;
     }
 
     .header-2-2 .btn-outline:hover div path {
-    fill: #6777ef;
+    fill: #F6DB80;
     transition: 0.3s;
     }
 
@@ -361,7 +361,7 @@
             width: 2.25rem;
             margin-bottom: 1.25rem;
             border-radius: 9999px;
-            background-color: #6777ef;
+            background-color: #F6DB80;
         }
 
         .content-3-2 .text-caption {
@@ -592,7 +592,7 @@
             transition: all .35s ease;
         }
         .card-explore:hover a {
-            color: #6777EF;
+            color: #F6DB80;
         }
         .card-explore:hover .card-explore__link i, .card-explore:hover .card-explore__link span {
             padding-left: 10px;
@@ -635,7 +635,7 @@
 
         .content-2-2 .btn-card {
             font: 700 1rem/1.5rem Poppins, sans-serif;
-            background-color: #6777ef;
+            background-color: #F6DB80;
             padding-top: 1rem;
             padding-bottom: 1rem;
             width: 100%;
@@ -661,8 +661,8 @@
         }
 
         .content-2-2 .btn-outline:hover {
-            border: 1px solid #6777ef;
-            color: #6777ef;
+            border: 1px solid #F6DB80;
+            color: #F6DB80;
         }
 
         .content-2-2 .card-text {
@@ -676,7 +676,7 @@
 
         .content-2-2 .btn-fill {
             font: 600 18px / normal Poppins, sans-serif;
-            background-color: #6777ef;
+            background-color: #F6DB80;
             border-radius: 12px;
             padding: 12px 32px;
             transition: 0.3s;
@@ -836,7 +836,7 @@
             transition: all .35s ease;
         }
         .card-explore:hover a {
-            color: #6777EF;
+            color: #F6DB80;
         }
         .card-explore:hover .card-explore__link i, .card-explore:hover .card-explore__link span {
             padding-left: 10px;
@@ -879,7 +879,7 @@
 
         .content-4-2 .btn-card {
             font: 700 1rem/1.5rem Poppins, sans-serif;
-            background-color: #6777ef;
+            background-color: #F6DB80;
             padding-top: 1rem;
             padding-bottom: 1rem;
             width: 100%;
@@ -905,8 +905,8 @@
         }
 
         .content-4-2 .btn-outline:hover {
-            border: 1px solid #6777ef;
-            color: #6777ef;
+            border: 1px solid #F6DB80;
+            color: #F6DB80;
         }
 
         .content-4-2 .card-text {
@@ -920,7 +920,7 @@
 
         .content-4-2 .btn-fill {
             font: 600 18px / normal Poppins, sans-serif;
-            background-color: #6777ef;
+            background-color: #F6DB80;
             border-radius: 12px;
             padding: 12px 32px;
             transition: 0.3s;
@@ -1146,7 +1146,7 @@
         }
 
         .detail-1 .breadcrumb-item.li.a {
-            color: #6777ef;
+            color: #F6DB80;
         }
 
         @media (min-width: 360px) {
@@ -1201,7 +1201,7 @@
         }
 
         .confirmation .breadcrumb-item.li.a {
-            color: #6777ef;
+            color: #F6DB80;
         }
         /* Footer */
         .footer-2-2 .list-space {
@@ -1303,7 +1303,7 @@
             padding: 20px 25px; }
 
         .card.card-primary {
-            border-top: 2px solid #6777ef; }
+            border-top: 2px solid #F6DB80; }
 
         .card-body{
             flex: 1 1 auto;
@@ -1397,7 +1397,7 @@
                           border-radius: 0 3px 3px 0;
                           padding-left: 15px; }
                           a {
-                            color: #6777ef;
+                            color: #F6DB80;
                             font-weight: 500;
                             transition: all .5s;
                             -webkit-transition: all .5s;
@@ -1418,8 +1418,8 @@
 
                             .btn-primary, .btn-primary.disabled {
                                 box-shadow: 0 2px 6px #acb5f6;
-                                background-color: #6777ef;
-                                border-color: #6777ef; }
+                                background-color: #F6DB80;
+                                border-color: #F6DB80; }
                                 .btn-primary:focus, .btn-primary.disabled:focus {
                                   background-color: #394eea !important; }
                                   .btn-primary:focus:active, .btn-primary.disabled:focus:active {

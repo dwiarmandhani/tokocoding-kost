@@ -3,7 +3,7 @@
     color: white;
 }
 </style>
-<section class="h-100 w-100" id="footer" style="box-sizing: border-box; background-color:#6777df;">
+<section class="h-100 w-100" id="footer" style="box-sizing: border-box; background-color:#F6DB80;">
 <div class="footer-2-2 container-xxl mx-auto position-relative p-0" style="font-family: 'Poppins', sans-serif">
     <div class="list-footer">
         <div class="row gap-md-0 gap-3">
@@ -36,10 +36,10 @@
                         <p> Bandung, Jawa Barat</p>
                     </li>
                     <li class="list-space">
-                        <p>081215693556</p>
+                        <p>085721813979</p>
                     </li>
                     <li class="list-space">
-                        <p>kostkita@gmail.com</p>
+                        <p>tokocodingkost@gmail.com</p>
                     </li>
                 </nav>
             </div>
@@ -50,7 +50,7 @@
             </div>
             <div class="mx-auto d-flex flex-column flex-lg-row align-items-center footer-info-space gap-4">
                 <nav class="d-flex flex-lg-row flex-column align-items-center justify-content-center">
-                    <p style="margin: 0">Copyright © 2021 Kost KIta</p>
+                    <p style="margin: 0">Copyright © 2021 Toko Coding Kost</p>
                 </nav>
             </div>
         </div>

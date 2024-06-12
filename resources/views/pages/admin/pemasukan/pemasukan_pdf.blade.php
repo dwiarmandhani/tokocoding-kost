@@ -22,9 +22,9 @@
             {{-- <div class="col-md-12">
                 <div style="text-align: center;">
                     <div>
-                        <strong>Bukti Pendapatan Kost KIta</strong>
+                        <strong>Bukti Pendapatan Toko Coding Kost</strong>
                     </div>
-                    <small style="margin : 0px; display: block;">Alamat : Kentingan, Kost KIta</small>
+                    <small style="margin : 0px; display: block;">Alamat : Kentingan, Toko Coding Kost</small>
                     <small style="margin : 0px; display: block;">Owner : Anggito Galih Nuragam</small>
                     <p style="margin : 0px;">HP/WA : 085770254568</p>
                 </div>

@@ -18,6 +18,8 @@
         <div class="section-body">
             <div class="row">
             <div class="col-12">
+                <a href="{{ route('transaksi.create') }}" class="btn btn-primary mb-3" id="tambah-data"><span i class="fas fa-plus"></span> Tambah Pemesanan</a>
+
                 <div class="card">
                 <div class="card-body">
                     @include('includes.tabs')

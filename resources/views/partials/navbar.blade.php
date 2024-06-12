@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <a href={{ route('home') }}>
         <img style="margin-right: 0.75rem;"
-            src="{{ asset('fe/img/GriyoKenyo.png') }}" alt="" />
+            src="{{ asset('fe/img/tokoCodingKost.png') }}" alt="" />
         </a>
         <button class="navbar-toggler border-0" type="button" data-toggle="modal" data-target="#targetModal">
             <span class="navbar-toggler-icon"></span>
@@ -16,7 +16,7 @@
                     <div class="modal-header border-0" style="padding: 2rem; padding-bottom: 0">
                         <a class="modal-title" id="targetModalLabel">
                         <img style="margin-top: 0.5rem; width: 100px; height:70px"
-                        src="{{ asset('fe/img/GriyoKenyo.png') }}" alt="" />
+                        src="{{ asset('fe/img/tokoCodingKost.png') }}" alt="" />
                         </a>
                         <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
                     </div>

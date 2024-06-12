@@ -1,7 +1,7 @@
 @extends('layouts.fe')
 
 @section('title')
-    Kost KIta
+    Toko Coding Kost
 @endsection
 
 @section('content')
@@ -58,7 +58,7 @@
 .testi-carousel .owl-dots .owl-dot.active span {
   width: 12px;
   height: 12px;
-  background: #6777EF; }
+  background: #F6DB80; }
 </style>
 {{-- Hero --}}
 <section class="h-100 w-100 bg-white" style="box-sizing: border-box" id="beranda">
@@ -72,7 +72,7 @@
                 Punya Impian<br class="d-lg-block d-none" />
                 Kamar Kost Yang Nyaman
                 </h1>
-                <p>Kost KIta merupakan kost <strong>putri</strong> yang nyaman dan bersih. Bagi kamu yang ingin mendapat suasana tersebut, Ayo segera miliki kamar di sini.</p>
+                <p>Toko Coding Kost merupakan kost <strong>putri</strong> yang nyaman dan bersih. Bagi kamu yang ingin mendapat suasana tersebut, Ayo segera miliki kamar di sini.</p>
                 <div class="d-flex flex-sm-row flex-column align-items-center mx-lg-0 mx-auto justify-content-center gap-3">
                 <a href="#kamar" class="btn d-inline-flex mb-md-0 btn-try text-white">
                     Pesan Kamar
