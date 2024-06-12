@@ -1,0 +1,291 @@
+.card1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    background-clip: border-box;
+}
+[type="file"]{
+    margin-left: 1em;
+}
+
+@media screen and (width: 768px) {
+    .card1{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #ffffff;
+        background-clip: border-box;
+        width: 18em;
+}
+    .card{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #ffffff;
+        background-clip: border-box;
+        width: 25em;
+        margin-left: 3em;
+    }
+    .image img{
+        width:130px;
+        height:120px;
+    }
+}
+
+@media screen and (width: 640px) {
+    .card1{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #ffffff;
+        background-clip: border-box;
+        width: 15em;
+}
+    .card{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #ffffff;
+        background-clip: border-box;
+        width: 18em;
+        margin-left: 5em;
+    }
+    .image img {
+        width:110px;
+        height:110px ;
+    }
+}
+@media screen and (width: 568px){
+    .card1{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #ffffff;
+        background-clip: border-box;
+        width: 15em;
+}
+    .card{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #ffffff;
+        background-clip: border-box;
+        width: 18em;
+        margin-left: 5em;
+    }
+    .image img{
+        width: 120px;
+        height: 110px;
+    }
+    .btn-success{
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (width: 520px){
+    .card1 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #ffffff;
+        background-clip: border-box;
+        width: 14em;
+}
+    .card{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #ffffff;
+        background-clip: border-box;
+        width: 17em;
+        margin-left: 4em;
+    }
+    .image img{
+        width: 120px;
+        height: 110px;
+    }
+    .btn-success{
+        margin-bottom: 1em;
+    }
+}
+@media screen and (max-width: 480px) {
+    .card1{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #ffffff;
+        background-clip: border-box;
+        width: 24em;
+        margin-left: 2.5em;
+    }
+    .card{
+        margin-top: 30em;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #ffffff;
+        background-clip: border-box;
+        width: 28em;
+        margin-left: -10em;
+    }
+    .image img{
+        height: 110px;
+        width: 120px;
+    }
+    .btn-success{
+        margin-bottom: 1em;
+    }
+}
+@media screen and (max-width: 414px) {
+    .card1{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #ffffff;
+        background-clip: border-box;
+        width: 20em;
+        margin-left: 3em;
+    }
+    .card{
+        margin-top: 28em;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #ffffff;
+        background-clip: border-box;
+        width: 20em;
+        margin-left: -6em;
+    }
+    .image img{
+        height: 150px;
+        width: 150px;
+    }
+    .btn-success{
+        margin-bottom: 1em;
+    }
+}
+@media screen and (max-width: 375px) {
+    .card1{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #ffffff;
+        background-clip: border-box;
+        width: 18em;
+        margin-left: 2.5em;
+    }
+    .card{
+        margin-top: 30em;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #ffffff;
+        background-clip: border-box;
+        width: 17em;
+        margin-left: -6em;
+    }
+    .image img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .btn-success{
+        margin-bottom: 1em;
+    }
+}
+@media screen and (max-width: 360px) {
+    .card1{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #ffffff;
+        background-clip: border-box;
+        width: 18em;
+        margin-left: 2em;
+    }
+    .card{
+        margin-top: 30em;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #ffffff;
+        background-clip: border-box;
+        width: 17em;
+        margin-left: -5.8em;
+    }
+    .image img {
+        width:120px;
+        height:110px ;
+    }
+    .btn-success{
+        margin-bottom: 1em;
+    }
+}
+@media screen and (max-width: 320px) {
+    .card1{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #ffffff;
+        background-clip: border-box;
+        width: 15em;
+        margin-left: 1em;
+    }
+    .card{
+        margin-top: 30em;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #ffffff;
+        background-clip: border-box;
+        width: 15em;
+        margin-left: -5.4em;
+    }
+    .image img{
+        height: 120px;
+        width: 120px;
+    }
+    .btn-success{
+        margin-bottom: 1em;
+    }
+
+}
