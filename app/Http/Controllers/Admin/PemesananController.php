@@ -152,6 +152,15 @@ class PemesananController extends Controller
 
     public function confirmation(Request $request, $tipe_kamar_id)
     {
+        $validatedData = $request->validate([
+            'user_id' => 'required',
+            'tanggal_masuk' => 'required|date',
+        ], [
+            'user_id.required' => 'User tidak boleh kosong',
+            'tanggal_masuk.required' => 'Tanggal tidak boleh kosong',
+            'tanggal_masuk.date' => 'Tanggal harus berupa tanggal yang valid',
+        ]);
+
         $tipe_kamar = TipeKamar::findOrFail($tipe_kamar_id);
         $harga = $tipe_kamar->harga;
         $new_tanggal_masuk = $request->input('tanggal_masuk');
@@ -175,9 +184,10 @@ class PemesananController extends Controller
         $email = $user->email;
         $no_hp = $user->no_hp;
         $name = $user->name;
-
-        // var_dump($user_id);
-        // die;
+        $booking = new Bookings($tipe_kamar, $new_tanggal_masuk, $new_tanggal_keluar);
+        if ($booking->available_nomor_kamar() === null) {
+            return redirect()->back()->with('error', 'Tidak ada kamar di tanggal ini');
+        }
 
         return view('pages.admin.transaksi.confirmation', [
             'tipe_kamar_id' => $tipe_kamar_id,
@@ -228,22 +238,13 @@ class PemesananController extends Controller
         $bookingg->durasi = $durasi;
         $bookingg->tanggal_pesan = Carbon::now();
 
-
-        if ($durasi == 1) {
-            $total_harga = $durasi * $harga;
-        } elseif ($durasi == 6) {
-            $total_harga = $durasi * $harga - (0.5 * $harga);
-        } elseif ($durasi == 12) {
-            $total_harga = $durasi * $harga - (1 * $harga);
-        }
-
-        $bookingg->total_harga = $total_harga;
+        // $bookingg->total_harga = $total_harga;
+        $bookingg->total_harga = $harga;
         $booking = new Bookings($tipe_kamar, $new_tanggal_masuk, $new_tanggal_keluar);
-        // var_dump($booking);
-        // die;
-        $kamar = Kamar::where('nomor_kamar', $booking->available_nomor_kamar())->first();
 
+        $kamar = Kamar::where('nomor_kamar', $booking->available_nomor_kamar())->first();
         $bookingg->kamar_id = $kamar->id;
+
         $bookingg->user_id = $user_id;
         $bookingg->save();
         // sampe sini

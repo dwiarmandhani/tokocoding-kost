@@ -27,6 +27,29 @@
                             </ul>
                         </div>
                     @endif
+
+                    @if (session('error'))
+                        <div class="alert alert-danger">
+                            {{ session('error') }}
+                        </div>
+                    @endif
+
+                    @if (session('success'))
+                        <div class="alert alert-success">
+                            {{ session('success') }}
+                        </div>
+                    @endif
+
+                    @if ($errors->any())
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
+
                     <div class="card">
                         <div class="card-header">
                             <h4>@yield('title')</h4>
@@ -116,5 +139,29 @@
         emailInput.value = email;
         noHpInput.value = no_hp;
     });
+
+    let harga = {!! $tipe_kamar->harga !!}
+    let selectedDuration = $("#durasi");
+
+    selectedDuration.on('change', (event) => {
+        let durasi = event.target.value;
+        let total = updatePrice(durasi, harga);
+
+        $("#total").val(total);
+        $("#total_harga").val(total.toLocaleString());
+    })
+
+    function updatePrice(durasi, harga) {
+        let total_harga = 0 ;
+
+        if (durasi == 1){
+            total_harga = durasi * harga;
+        } else if (durasi == 6){
+            total_harga = durasi * harga - (0.5 * harga);
+        } else if(durasi == 12){
+            total_harga = durasi * harga - (1 * harga);
+        }
+        return total_harga;
+    }
 </script>
 @endpush
